@@ -1,0 +1,159 @@
+/*background*/
+html {
+	background:url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*header/logo*/
+header{
+	position:absolute;
+	left:30px;
+	top:7px;
+}
+
+/*nav*/
+nav{
+	position:absolute;
+	right:37px;
+	top:30px;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav li{
+	display:inline-block;
+}
+
+nav a{
+	display:block;
+	padding:10px;
+	border:1px solid grey;
+    background: grey;
+	color: white;
+	border-radius:15px;
+	text-decoration:none;
+}
+
+nav a:hover{
+	border:1px solid grey;
+    background: white;
+	color: grey;
+}
+
+/*port about*/
+#port{
+    padding: 150px 250px 100px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    animation: bob 3s ease-in 1;
+}
+
+#port img{
+	border-radius:50%;
+	border:3px solid grey;
+}
+
+@keyframes bob{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#port p{
+	max-width: 850px;
+	margin:50px;
+}
+
+/*about*/
+#contain{
+    padding-top: 50px;
+	display: flex;
+	max-width:950px;
+    margin: 0px auto;
+}
+
+#contain2{
+	display: flex;
+	max-width:950px;
+    margin: 0px auto;
+}
+
+.colu{
+    margin: 10px 70px 70px 60px;
+    width: 50%;
+    text-align: center;
+}
+
+.nocol{
+    padding-top: 90px;
+    text-align: center;
+}
+
+
+/*container contact*/
+.container{
+    text-align: center;
+    padding: 100px;
+	max-width:850px;
+	margin:0 auto;
+}
+
+
+/*button*/
+.btn{
+	padding:10px;
+	border:1px solid grey;
+    background: grey;
+	color: white;
+	border-radius:10px;
+	text-decoration:none;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn:hover{
+	border:1px solid grey;
+    background: white;
+	color: grey;
+}
+
+/*input*/
+input{
+    background: transparent;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+
+/*msg*/
+textarea{
+    background: transparent;
+    width: 320px;
+    height: 120px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*footer*/
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: grey;
+    color: white;
+	text-align: center;
+}
+
+footer p{
+	font-size:14px;
+}
